@@ -1,10 +1,10 @@
-# 💸 UPI Backend API
+#  UPI Backend
 
-A secure, production-ready backend for a UPI-based money transfer app, built with **NestJS**, **Prisma ORM**, and **PostgreSQL**. This backend provides robust authentication, bank account management, and a transaction system with JWT protection and best practices for validation and security.
+A secure ready backend for a UPI-based money transfer app, built with **NestJS**, **Prisma ORM**, and **PostgreSQL**. This backend provides robust authentication, bank account management, and a transaction system with JWT protection and best practices for validation and security.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 - **NestJS** (Node.js framework)
 - **Prisma ORM** (Type-safe DB access)
 - **PostgreSQL** (Relational database)
@@ -13,7 +13,7 @@ A secure, production-ready backend for a UPI-based money transfer app, built wit
 
 ---
 
-## 🛠️ Project Setup Instructions
+##  Project Setup Instructions
 
 1. **Clone the repository:**
    ```sh
@@ -41,7 +41,7 @@ A secure, production-ready backend for a UPI-based money transfer app, built wit
 
 ---
 
-## 🔐 .env File Structure
+##  .env File Structure
 
 Create a `.env` file in the project root with the following variables:
 
@@ -51,11 +51,11 @@ JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_IN=1d
 ```
 
-> See `.env.example` for a template.
+
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 - `src/auth/` — Authentication (register, login, JWT, guards)
 - `src/accounts/` — Bank account management (create, list, balance)
@@ -65,15 +65,15 @@ JWT_EXPIRES_IN=1d
 
 ---
 
-## 📮 API Documentation
+##  API Documentation
 
 - All endpoints are documented in the included Postman collection:
-  - **File:** `upi-backend.postman_collection.json`
+  - **File:** `https://winter-meadow-94119.postman.co/workspace/Personal-Workspace~fe0945b6-d3f5-40be-b400-98e0b5e57384/collection/26315652-a6068572-98a4-42d0-90b3-eb7de84b1bf2?action=share&creator=26315652`
 - Import this collection into Postman to test all APIs easily.
 
 ---
 
-## ✅ How to Test APIs
+##  How to Test APIs
 
 1. **Import the Postman collection** into Postman.
 2. **Register a new user** via `/auth/register`.
@@ -83,14 +83,14 @@ JWT_EXPIRES_IN=1d
 
 ---
 
-## 🧾 Extra Notes
+##  Extra Notes
 
 - **Prisma** is used for all database access and migrations.
 - **Passwords** are securely hashed using **bcrypt**.
 - **Sensitive routes** are protected by a JWT Auth Guard.
 - **Validation** is enforced using `class-validator` and DTOs.
-- **Atomic transactions** ensure money transfers are safe and reliable.
+
 
 ---
 
-**Happy Coding!** 🎉
+**Happy Coding!** 
